@@ -20,7 +20,7 @@ POC for PM2 clusterization with stress test.
 
 `npm run cluster:down`: delete the cluster
 
-## benchmarks
+## Benchmarks
 
 ### Single instance:
 
@@ -47,7 +47,7 @@ Percentage of requests served within a certain time
    -1:   1 errors
 ```
 
-## Clustered:
+## Clustered instances:
 
 ```
 Target URL:          http://localhost:3000/load
@@ -70,7 +70,7 @@ Percentage of requests served within a certain time
  100%      1076 ms (longest request)
 ```
 
-## resources
+## Resources
 
 - Node Cluster Documentation: https://nodejs.org/api/cluster.html#cluster
 - PM2 Load Balancing Documentation: https://pm2.io/docs/runtime/guide/load-balancing/
