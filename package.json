@@ -1,0 +1,22 @@
+{
+  "name": "try-pm2-load-balancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "load": "loadtest -n 1000 -c 10 http://localhost:3000/load",
+    "cluster:up": "pm2 start ecosystem.config.cjs",
+    "cluster:down": "pm2 delete ecosystem.config.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "loadtest": "^8.0.9",
+    "pm2": "^5.3.1"
+  }
+}
