@@ -47,7 +47,7 @@ Percentage of requests served within a certain time
    -1:   1 errors
 ```
 
-## Clustered instances:
+### Clustered instances:
 
 ```
 Target URL:          http://localhost:3000/load
